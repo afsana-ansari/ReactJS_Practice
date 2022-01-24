@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  width: 100%;
+}
+
+.leftPanel {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.centerPanel {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+}
+
+.rightPanel {
+  display: flex;
+  flex-grow: 3;
+}
+
+.emailItem {
+  display: flex;
+  flex-direction: column;
+}
